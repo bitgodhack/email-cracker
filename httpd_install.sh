@@ -55,6 +55,7 @@ then
         sudo ./configure >> $LOGFILE 2>&1
         sudo make clean
         sudo make >> $LOGFILE 2>&1
+
     
         echo "[*] Installing APR ..."
         sudo make install >> $LOGFILE 2>&1
