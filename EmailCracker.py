@@ -24,7 +24,8 @@ print(Prompt)
 import smtplib
 import time 
 import logging 
- 
+
+
 class bcolors:
     OK = '\033[92m'
     FAIL = '\033[91m'
